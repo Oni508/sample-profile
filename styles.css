@@ -26,9 +26,18 @@ h2 {
 
 img {
     height: 250px;
-    width: 250px;
+    width: 400px;
     padding-top: 16px;
     padding-bottom: 24px;
+}
+
+@media screen and (max-width: 480px) {
+    img {
+        height: 250px;
+        width: 250px;
+        padding-top: 16px;
+        padding-bottom: 24px;
+    }
 }
 
 .profile p {
@@ -43,8 +52,8 @@ img {
 }
 
 .skills li {
-    text-align: left;
-    margin-left: 330px;
+    width: 100px;
+    margin: auto;
 }
 
 .portfolio {
